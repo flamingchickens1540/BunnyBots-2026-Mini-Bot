@@ -8,7 +8,7 @@
           <entry name="$USER_HOME$/wpilib/2026/maven/edu/wpi/first/epilogue/epilogue-processor-java/2026.2.1/epilogue-processor-java-2026.2.1.jar" />
           <entry name="$USER_HOME$/wpilib/2026/maven/edu/wpi/first/epilogue/epilogue-runtime-java/2026.2.1/epilogue-runtime-java-2026.2.1.jar" />
         </processorPath>
-        <module name="Commands.main" />
+        <module name="BunnyBots_2026_Mini_Bot.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />
