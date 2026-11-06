@@ -40,7 +40,7 @@ public class RobotContainer {
    * joysticks}.
    */
   private void configureBindings() {
-    iAmSteveTestManCoolGuyManCoolChud.setDefaultCommand(driveTrain.drive(()->controller.getRightY(),()->controller.getLeftY()));
+    iAmSteveTestManCoolGuyManCoolChud.setDefaultCommand(iAmSteveTestManCoolGuyManCoolChud.drive(()->controller.getRightY(),()->controller.getLeftY()));
 
     // Schedule `exampleMethodCommand` when the Xbox controller's B button is pressed,
     // cancelling o
