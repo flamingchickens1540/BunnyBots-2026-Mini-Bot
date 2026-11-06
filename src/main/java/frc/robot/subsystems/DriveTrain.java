@@ -16,10 +16,18 @@ public class DriveTrain extends SubsystemBase {
 
     public Command drive(DoubleSupplier righty, DoubleSupplier rightx) {
         return Commands.run(() -> {
+            double speedLeft = 0.0;
+            double speedRight = 0.0;
             if ((rightx.getAsDouble() > .2 || rightx.getAsDouble() < .2)) {
-                rightMotor.set(TalonSRXControlMode.PercentOutput, rightx.getAsDouble());
-                leftMotor.set(TalonSRXControlMode.PercentOutput, -rightx.getAsDouble());
+                speedLeft += rightx.getAsDouble();
+                speedRight += rightx.getAsDouble();
             }
+            if ((righty.getAsDouble() > .2 || righty.getAsDouble() < .2)) {
+                speedLeft += righty.getAsDouble();
+                speedRight -= righty.getAsDouble();
+            }
+            leftMotor.set(TalonSRXControlMode.PercentOutput, speedLeft);
+            rightMotor.set(TalonSRXControlMode.PercentOutput, speedRight);
         }, this);
     }
 }
