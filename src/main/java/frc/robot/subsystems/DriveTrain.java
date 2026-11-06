@@ -20,34 +20,27 @@ public class DriveTrain extends SubsystemBase {
             double speedLeft = 0.0;
             double speedRight = 0.0;
             if (leftTrigger.getAsDouble() > .2) {
-                speedLeft += leftTrigger.getAsDouble();
-                speedRight -= leftTrigger.getAsDouble();
+                speedLeft += leftTrigger.getAsDouble()/1.3;
+                speedRight -= leftTrigger.getAsDouble()/1.3;
             }
-
             if (rightTrigger.getAsDouble() > .2) {
                 speedLeft -= rightTrigger.getAsDouble()/2;
                 speedRight += rightTrigger.getAsDouble()/2;
             }
             if (controller.getLeftBumperButton()) {
-                if (speedLeft>=-.5){
-                    speedLeft -= .5;
+                if (speedLeft>=-.7){
+                    speedLeft -= .3;
                 }
                 if (speedRight <= .7){
                     speedRight +=.3;
-                }
-                else{
-                    speedRight = 1;
                 }
             }
             if (controller.getRightBumperButton()) {
                 if (speedLeft<=.7){
                     speedLeft += .3;
                 }
-                else{
-                    speedLeft = 1;
-                }
-                if (speedRight >=-.5){
-                    speedRight -=.5;
+                if (speedRight >=-.7){
+                    speedRight -=.3;
                 }
             }
             leftMotor.set(TalonSRXControlMode.PercentOutput, speedLeft);
