@@ -5,7 +5,6 @@
 package frc.robot;
 
 import frc.robot.Constants.OperatorConstants;
-import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
 import edu.wpi.first.wpilibj2.command.button.Trigger;
 import frc.robot.subsystems.DriveTrain;
@@ -17,7 +16,7 @@ import frc.robot.subsystems.DriveTrain;
  * subsystems, commands, and trigger mappings) should be declared here.
  */
 public class RobotContainer {
-  private final DriveTrain iAmSteveTestManCoolGuyManCoolChud = new DriveTrain();
+  private final DriveTrain driveTrain = new DriveTrain();
 
 
   // Replace with CommandPS4Controller or CommandJoystick if needed
@@ -40,7 +39,7 @@ public class RobotContainer {
    * joysticks}.
    */
   private void configureBindings() {
-    iAmSteveTestManCoolGuyManCoolChud.setDefaultCommand(iAmSteveTestManCoolGuyManCoolChud.drive(()->controller.getRightY(),()->controller.getLeftY()));
+    driveTrain.setDefaultCommand(driveTrain.drive(controller::getRightY, controller::getLeftY));
 
     // Schedule `exampleMethodCommand` when the Xbox controller's B button is pressed,
     // cancelling o
