@@ -5,73 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b965af07-2787-4716-995e-69af722a4a55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.wpilib/wpilib_preferences.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WPILib-License.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libCTRE_Phoenix6_Sim.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libCTRE_PhoenixCCISim.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libCTRE_PhoenixTools_Sim.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libCTRE_SimPigeonIMU.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libCTRE_SimProCANcoder.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libCTRE_SimProCANdi.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libCTRE_SimProCANdle.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libCTRE_SimProCANrange.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libCTRE_SimProPigeon2.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libCTRE_SimProTalonFX.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libCTRE_SimProTalonFXS.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libCTRE_SimTalonSRX.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libCTRE_SimVictorSPX.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libapriltag.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libapriltagjni.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libcscore.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libcscorejni.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libhalsim_ds_socket.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libhalsim_gui.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libntcore.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libntcorejni.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_aruco.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_calib3d.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_core.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_dnn.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_features2d.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_flann.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_gapi.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_highgui.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_imgcodecs.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_imgproc.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_java4100.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_ml.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_objdetect.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_photo.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_stitching.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_video.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libopencv_videoio.4.10.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libwpiHal.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libwpiHaljni.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libwpimath.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libwpimathjni.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libwpinet.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libwpinetjni.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libwpiutil.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jni/release/libwpiutiljni.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Main.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Robot.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/deploy/example.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/robot/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/robot/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/robot/Robot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/robot/RobotContainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frc/robot/subsystems/DriveTrain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendordeps/Phoenix5-5.36.0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendordeps/Phoenix6-26.3.0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendordeps/WPILibNewCommands.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +33,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="BunnyBots 2026 Mini Bot" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BunnyBots 2026 Mini Bot" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BunnyBots 2026 Mini Bot" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -155,7 +104,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.BunnyBots 2026 Mini Bot [deploy]">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.BunnyBots 2026 Mini Bot [build]">
     <configuration name="BunnyBots 2026 Mini Bot [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -208,8 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BunnyBots 2026 Mini Bot [deploy]" />
         <item itemvalue="Gradle.BunnyBots 2026 Mini Bot [build]" />
+        <item itemvalue="Gradle.BunnyBots 2026 Mini Bot [deploy]" />
       </list>
     </recent_temporary>
   </component>
