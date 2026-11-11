@@ -1,5 +1,6 @@
 package frc.robot.subsystems;
 
+
 import com.ctre.phoenix.motorcontrol.TalonSRXControlMode;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
 import edu.wpi.first.wpilibj2.command.Command;
@@ -17,8 +18,8 @@ public class DriveTrain extends SubsystemBase {
             double speedLeft = 0.0;
             double speedRight = 0.0;
             if ((rightx.getAsDouble() > .2 || rightx.getAsDouble() < .2)) {
-                speedLeft += rightx.getAsDouble();
-                speedRight += rightx.getAsDouble();
+                speedLeft -= rightx.getAsDouble();
+                speedRight -= rightx.getAsDouble();
             }
             if ((righty.getAsDouble() > .2 || righty.getAsDouble() < .2)) {
                 speedLeft += righty.getAsDouble();
